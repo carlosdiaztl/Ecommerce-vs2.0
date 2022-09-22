@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --primary-color: #48C9B0;
+    --padding-elementos-nav: 10px 50px;
+    --orange: #F5B041;
+    --verde-pastel: #D5F5E3;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar1{
+    display: flex;
+    background-color: var(--primary-color);
+    color: white;
+    padding: var(--padding-elementos-nav);
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.idiomaMoneda{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+    border-right: 2px solid white;
+}
+
+.idiomaMoneda img{
+    width: 40px;
+    height: auto;
+}
+
+.idiomaMonedaPadre{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar1 p span{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.navbar2{
+    display: flex;
+    padding: var(--padding-elementos-nav);
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contenedorBotones{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.contenedorBotones button{
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.contenedorBotones button img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.searchLocation{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.searchLocation form{
+    display: flex;
+    width: 80%;
+}
+
+.searchLocation form input{
+    width: 80%;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    
+}
+
+.searchLocation form button{
+    width: 20%;
+    border-radius: 0 5px 5px 0;
+    background-color: var(--orange);
+    padding: 1px;
+    border:none;
+    border: 1px solid var(--orange);
+}
+
+.searchLocation form button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.searchLocation form button img{
+    filter: invert(1);
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.locationButton{
+    border: none;
+}
+
+.locationButton img{
+    width: 70%;
+    height: auto;
+}
+
+.navbar3{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding-elementos-nav);
+}
+
+.allCategories{
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;    
+}
+
+.navbar3 ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    gap: 5px;
+}
+
+.allCategories img{
+    width: 30px;
+    filter: invert(1);
+}
+
+.allCategories:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.rayo{
+    background-color: var(--primary-color);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;    
+}
+
+.rayo img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    filter: invert(1);
+}
+
+.bannerImages{
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-elementos-nav);
+    gap: 15px;
+}
+
+.bannerImages1{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.bannerImages1 figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    width: 20%;
+}
+
+.bannerImages1 figure img{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.bannerImages1 article{
+    width: 80%;
+    background-image: url('../images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.bannerImages1 article section{
+    width: 45%;
+    padding: 35px;
+    margin-left: 30px;
+    
+}
+
+.bannerImages1 article section h4, .bannerImages1 article section p{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.bannerImages2{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.bannerImages2 img{
+    width: 33%;
+    height: auto;
+    object-fit: contain;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: var(--padding-elementos-nav);
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+aside section{
+    display: flex;
+    flex-direction: column;
+}
+
+aside section button{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 2;
+}
+
+aside section button img{
+    z-index: 1;
+}
+
+main article{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+}
+
+#containerCards{
+    display: flex;
+    padding: var(--padding-elementos-nav);
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1;
+    padding-bottom: 10px;
+}
+
+.card img{
+    border-radius: 10px 10px 0 0;
+}
+
+.delete{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-self: flex-end;
+    margin: 5px;
+    position: absolute;
+}
+
+.delete:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.card:hover{
+    transform: scale(1.5);
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cantidad{
+    background-color: #CACFD2 ;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.cantidad button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+}
+
+.cantidad button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cantidad button:active{
+    border: 1px solid var(--primary-color);
+}
+
+.textCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}

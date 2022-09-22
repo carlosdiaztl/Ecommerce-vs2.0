@@ -1,0 +1,145 @@
+{
+  "products": [
+    {
+      "name": "Brocoli x 600g",
+      "type": "vegetableFruits",
+      "price": 5000,
+      "image_product": "https://jumbo.vteximg.com.br/arquivos/ids/424497/Brocoli-unid.jpg?v=637521224580230000",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "image_product": "https://images.jumpseller.com/store/espesales/7472349/MANZANA_DESHIDRATADA_.jpg?1613057304",
+      "name": "Manzana x6",
+      "type": "vegetableFruits",
+      "price": 9000
+    },
+    {
+      "id": 3,
+      "image_product": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Felamigodelanoche.com%2Fwp-content%2Fuploads%2F2019%2F02%2F1.5-LITROS.jpg&f=1&nofb=1",
+      "name": "CocaCola 1.5l",
+      "type": "beverages",
+      "price": 4500
+    },
+    {
+      "id": 4,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/203467-1600-1600?v=637814194603900000&width=1600&height=1600&aspect=true",
+      "name": "Costilla en bandeja x500gr",
+      "type": "meatSeafood",
+      "price": 6600
+    },
+    {
+      "id": 5,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/203397-1200-1200?v=637814194409630000&width=1200&height=1200&aspect=true",
+      "name": "Mojarra roja x500g",
+      "type": "meatSeafood",
+      "price": 9150
+    },
+    {
+      "id": 6,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/221589-1600-1600?v=637816526396400000&width=1600&height=1600&aspect=true",
+      "name": "Cereal Chocokrispis bolsa reselable x410g",
+      "type": "breakfastdairy",
+      "price": 13272
+    },
+    {
+      "id": 7,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/403043-1600-1600?v=637971448951030000&width=1600&height=1600&aspect=true",
+      "name": "Leche Deslactosada Alqueria x1100ml x6und",
+      "type": "breakfastdairy",
+      "price": 28790
+    },
+    {
+      "id": 8,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/204294-1600-1600?v=637814196986570000&width=1600&height=1600&aspect=true",
+      "name": "Alitas de pollo finas hierbas Bucanero x900g",
+      "type": "frozenFood",
+      "price": 16000
+    },
+    {
+      "id": 9,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/371230-1600-1600?v=637897867693300000&width=1600&height=1600&aspect=true",
+      "name": "Galletas Oreo pastel vaionilla x12und x432g",
+      "type": "biscuitSnack",
+      "price": 10000
+    },
+    {
+      "id": 10,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185564-1600-1600?v=637813979458430000&width=1600&height=1600&aspect=true",
+      "name": "Chocolatina Jet x12und x144g",
+      "type": "biscuitSnack",
+      "price": 7190
+    },
+    {
+      "id": 11,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/192266-1600-1600?v=637814018795530000&width=1600&height=1600&aspect=true",
+      "name": "Aceite Oleocali garrafa x3000ml",
+      "type": "groceryStaples",
+      "price": 33990
+    },
+    {
+      "id": 12,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/201387-1600-1600?v=637814152619330000&width=1600&height=1600&aspect=true",
+      "name": "Frijol Cuisine bola roja x500g",
+      "type": "groceryStaples",
+      "price": 7590
+    },
+    {
+      "id": 13,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/186795-1600-1600?v=637813983217030000&width=1600&height=1600&aspect=true",
+      "name": "Vino Tinto Peñasol x750ml",
+      "type": "alcoholDrinks",
+      "price": 16000
+    },
+    {
+      "id": 14,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/186784-1600-1600?v=637813983190130000&width=1600&height=1600&aspect=true",
+      "name": "Vino Lheritage Cabernet Sauvignon x750ml",
+      "type": "alcoholDrinks",
+      "price": 26000
+    },
+    {
+      "id": 15,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/211986-1600-1600?v=637814230385300000&width=1600&height=1600&aspect=true",
+      "name": "Aguardiente amarillo manzanares 24 pionero x750ml",
+      "type": "alcoholDrinks",
+      "price": 37500
+    },
+    {
+      "id": 16,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/219562-1600-1600?v=637816521142730000&width=1600&height=1600&aspect=true",
+      "name": "Ron viejo de caldas esencial 29% x750ml",
+      "type": "alcoholDrinks",
+      "price": 35000
+    },
+    {
+      "id": 17,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/220525-1600-1600?v=637816523723170000&width=1600&height=1600&aspect=true",
+      "name": "Ron Viejo de Caldas 8 años carta de Oro x750ml",
+      "type": "alcoholDrinks",
+      "price": 40000
+    },
+    {
+      "id": 18,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/212885-1600-1600?v=637814235502100000&width=1600&height=1600&aspect=true",
+      "name": "Ron Bacardi mojito borella x750ml",
+      "type": "alcoholDrinks",
+      "price": 46000
+    },
+    {
+      "id": 19,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/186960-1600-1600?v=637813983663800000&width=1600&height=1600&aspect=true",
+      "name": "Ron viejo de caldas garrafa x1750ml",
+      "type": "alcoholDrinks",
+      "price": 98000
+    },
+    {
+      "id": 20,
+      "image_product": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/196340-1600-1600?v=637814129507100000&width=1600&height=1600&aspect=true",
+      "name": "Vodka Smirnof lulo x1 shots x750ml",
+      "type": "alcoholDrinks",
+      "price": 41000
+    }
+  ],
+  "shoppingList": []
+}

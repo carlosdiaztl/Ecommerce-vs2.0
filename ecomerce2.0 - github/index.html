@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>FastKart</title>
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="navbar">
+            <div class="navbar1">
+                <p>Something you love in now on sale! <span>Buy Now!</span></p>
+                <div class="idiomaMonedaPadre">
+                    <div class="idiomaMoneda">
+                        <img src="./images/united-states.png" alt="banderita USA">
+                        <span>English</span>
+                    </div>
+                    <span>USD</span>
+                </div>
+            </div>
+            <div class="navbar2">
+                <img src="./images/logo.png" alt="logo">
+                <div class="searchLocation">
+                    <button class="locationButton" ><img src="./images/location_on_FILL0_wght400_GRAD0_opsz48.png" alt="boton localización"></button>
+                    <form>
+                        <input type="search" id="search" placeholder="I'm searching for...">
+                        <button type="submit"><img src="./images/search_FILL0_wght400_GRAD0_opsz48.png" alt="lupa"></button>
+                    </form>
+                </div>
+                <div class="contenedorBotones">
+                    <button><img src="./images/call_FILL0_wght400_GRAD0_opsz48.png" alt="phone"></button>
+                    <button><img src="./images/favorite_FILL0_wght400_GRAD0_opsz48.png" alt="favorite"></button>
+                    <button><img src="./images/shopping_cart_FILL0_wght400_GRAD0_opsz48.png" alt="cart"></button>
+                    <button><img src="./images/person_FILL0_wght400_GRAD0_opsz48.png" alt="USER"></button>
+                </div>
+            </div>
+            <div class="navbar3">
+                <button class="allCategories"><img src="./images/sort_FILL0_wght400_GRAD0_opsz48.png" alt="sort"><span>All Categories</span></button>
+                <ul>
+                    <li>Home</li>
+                    <li>Shop</li>
+                    <li>Product</li>
+                    <li>Mega Menu</li>
+                    <li>Blog</li>
+                    <li>Pages</li>
+                    <li>Contact</li>
+                </ul>
+                <button class="rayo"><img src="./images/electric_bolt_FILL0_wght400_GRAD0_opsz48.png" alt="rayo"></button>
+            </div>
+        </nav>
+        <section class="bannerImages">
+            <figure class="bannerImages1">
+                <article>
+                    <section>
+                        <h4>Exclusive offer <span>30% Off</span></h4>
+                        <h1>STAY HOME & DELIVERED YOUR <span>DAILY NEEDS</span></h1>
+                        <p>Vegetables contain many vitamins minerals that are good for your health.</p>
+                        <button>Shop Now</button>
+                    </section>
+                </article>
+                <figure>
+                    <img src="./images/img-main2.png" alt="imagen2">
+                    <img src="./images/img-main3.png" alt="imagen3">
+                </figure>
+            </figure>
+            <figure class="bannerImages2">
+                <img src="./images/img-descount1.png" alt="imagen4">
+                <img src="./images/img-descount2.png" alt="imagen5">
+                <img src="./images/img-descount3.png" alt="imagen6">
+            </figure>
+        </section>
+    </header>
+    <main>
+        <aside>
+            <h5>Category</h5>
+            <section>
+                <button id="vegetableFruits"><img src="./images/category-vegetables.png" alt="Vegetables"><span>Vegetables & Fruits</span></button>
+                <button id="beverages"><img src="./images/category-beverages.png" alt="beverages"><span>Beverages</span></button>
+                <button id="meatSeafood"><img src="./images/category-meats.png" alt="meatSeafood"><span>Meat & Seafood</span></button>
+                <button id="breakfastdairy"><img src="./images/category-breakfast.png" alt="Breakfast"><span>Breakfast & Dairy</span></button>
+                <button id="frozenFood"><img src="./images/category-froozen.png" alt="FrozenFood"><span>Frozen Foods</span></button>
+                <button id="biscuitSnack"><img src="./images/category-snacks.png" alt="Snacks"><span>Biscuits & Snacks</span></button>
+                <button id="groceryStaples"><img src="./images/category-grocery.png" alt="Grocery"><span>Grocery & Staples</span></button>
+                <button id="alcoholDrinks"><img src="./images/category-wines.png" alt="alcoholDrinks"><span>Wines & Alcohol Drinks</span></button>
+            </section>
+        </aside>
+        <article>
+            <section>
+                <h2>Top Save Today</h2>
+                <p>Don't miss this opportunity a especial discount just this week. </p>
+            </section>
+            <section id="containerCards">
+                <article class="card">
+                    <button class="delete">X</button>
+                    <img src="https://jumbocolombiaio.vtexassets.com/arquivos/ids/186795-1600-1600?v=637813983217030000&width=1600&height=1600&aspect=true" alt="imagen">
+                    <div class="textCard">
+                        <h6>Snacks</h6>
+                        <h5>Vino Tinto Peñasol x750ml</h5>
+                        <span>$16000</span>
+                        <div class="cantidad">
+                            <button class="decremento">-</button>
+                            <span>1</span>
+                            <button class="incremento">+</button>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </article>
+    </main>
+    <script src="./scripts/script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
